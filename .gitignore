@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+backend/.venv/
+backend/.pgdata/
+
+# Node
+node_modules/
+
+# Env & secrets
+.env
+.env.*
+!.env.example
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Vendored binaries (OpenSCAD из github.com/openscad/openscad/releases,
+# ставится скриптом backend/scripts/download_openscad.ps1)
+backend/vendor/
+
+# Temp
+*.tmp

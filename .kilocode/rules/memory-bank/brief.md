@@ -1,0 +1,1 @@
+The project goal, description, and architecture are located in the root directory in the file Описание и план приложения.docx. You must analyze this file and use it as your primary source of truth during development.

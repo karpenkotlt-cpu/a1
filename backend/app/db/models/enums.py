@@ -1,0 +1,56 @@
+import enum
+
+
+class MaterialProfile(enum.StrEnum):
+    ROD = "ROD"
+    PLATE = "PLATE"
+    TUBE = "TUBE"
+    HEXAGON = "HEXAGON"
+
+
+class MachineType(enum.StrEnum):
+    TURNING_CNC = "TURNING_CNC"
+    TURNING_CONVENTIONAL = "TURNING_CONVENTIONAL"
+    MILLING_3AXIS = "MILLING_3AXIS"
+    MILLING_5AXIS = "MILLING_5AXIS"
+    DRILLING = "DRILLING"
+    GRINDING = "GRINDING"
+    WEDM = "WEDM"
+    BANDSAW = "BANDSAW"
+    LASER = "LASER"
+    PRESS_BRAKE = "PRESS_BRAKE"
+    WELDING_POST = "WELDING_POST"
+
+
+class OperationType(enum.StrEnum):
+    TURNING = "TURNING"
+    MILLING = "MILLING"
+    DRILLING = "DRILLING"
+    TAPPING = "TAPPING"
+    GRINDING = "GRINDING"
+    WEDM = "WEDM"
+    SAWING = "SAWING"
+    INSPECTION = "INSPECTION"
+    FINISHING = "FINISHING"
+
+
+class CoefficientType(enum.StrEnum):
+    TOLERANCE = "TOLERANCE"
+    ROUGHNESS = "ROUGHNESS"
+    SLENDERNESS = "SLENDERNESS"
+    GEOMETRY = "GEOMETRY"
+
+
+class CooperationServiceType(enum.StrEnum):
+    HEAT_TREATMENT = "HEAT_TREATMENT"
+    GALVANIZING = "GALVANIZING"
+    ANODIZING = "ANODIZING"
+    LASER_CUT = "LASER_CUT"
+    PAINTING = "PAINTING"
+
+
+class PriceUnit(enum.StrEnum):
+    KG = "KG"
+    DM2 = "DM2"
+    METER = "METER"
+    PIECE = "PIECE"
